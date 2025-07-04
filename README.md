@@ -11,6 +11,7 @@ Summary View: High-level KPIs and loan quality insights
 Overview Page: Trend, geographic, and demographic analysis
 
 
+
 ## 🚀 Key Metrics
 
 * **Total Loan Applications:** 38.6K
@@ -21,15 +22,23 @@ Overview Page: Trend, geographic, and demographic analysis
 * **Good Loans Issued:** 86.2%
 * **Bad Loans Issued:** 13.8%
 
-🧾 Data Processing
+
+
+🧾 **Data Processing**
 All required metrics and breakdowns were calculated using Microsoft SQL Server. The SQL queries were designed to handle the following:
 
 ✅ **Monthly and Total KPIs**: Including total loan applications, funded amount, and amount received
+
 📊 **Average Calculations**: For interest rate and debt-to-income (DTI) ratio
+
 🔍 **Loan Classification**: Segregation of good loans (Fully Paid / Current) and bad loans (Charged Off)
+
 📋 **Loan Status Groupings**: Aggregated by repayment status (e.g., Fully Paid, Current, Charged Off)
+
 🧩 **Segment Analysis**: Based on geography (state), term duration, employment length, loan purpose, and home ownership
+
 These processed results were connected directly to Tableau to build interactive, filter-enabled dashboards for end-user analysis.
+
 
 
 ## 📊 Visualizations & Insights
@@ -72,28 +81,42 @@ These processed results were connected directly to Tableau to build interactive,
 
 
 
+
 ## 🔍 Key Business Insights
 
 ✔ 86.2% of loans issued are categorized as **Good Loans**
+
 ✔ **Debt Consolidation** is the most common purpose for loan applications
+
 ✔ Applicants with **10+ years of experience** form the largest group
+
 ✔ **60-month** loan terms are highly preferred over 36 months
+
 ✔ Renters account for slightly more applications than homeowners
 
 
+
 🛠️ Technologies Used
+
 -**Microsoft SQL Server** – For writing queries to aggregate, filter, and clean the data
+
 -**Tableau** – For building the interactive and user-friendly dashboards
+
 -**MS Excel**– For initial dataset formatting
+
 
 
 
 ## 📈 Potential Use Cases
 
 🔹 **Loan Risk Analysis**: Helps financial institutions identify high-risk borrowers
+
 🔹 **Customer Segmentation**: Analyze loan behavior by employment, ownership, and purpose
+
 🔹 **Repayment Monitoring**: Track recovery trends of good vs bad loans
+
 🔹 **Strategic Planning**: Optimize policies based on application, funding, and repayment patterns
+
 
 
 ## 🔗 Project Links
