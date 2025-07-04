@@ -59,6 +59,7 @@ The primary objective of this project is to monitor total loan applications, dis
 * Categorizes loan applications by RENT vs MORTGAGE ownership
 
 
+
 ## 🔍 Key Business Insights
 
 ✔ 86.2% of loans issued are categorized as **Good Loans**
@@ -67,10 +68,12 @@ The primary objective of this project is to monitor total loan applications, dis
 ✔ **60-month** loan terms are highly preferred over 36 months
 ✔ Renters account for slightly more applications than homeowners
 
+
 ## 🛠️ Technologies & Tools Used
 
 * **Tableau** – For data visualization and interactive dashboards
 * **Excel / CSV** – Used for data cleaning and preparation
+
 
 ## 📈 Potential Use Cases
 
@@ -79,9 +82,10 @@ The primary objective of this project is to monitor total loan applications, dis
 🔹 **Repayment Monitoring**: Track recovery trends of good vs bad loans
 🔹 **Strategic Planning**: Optimize policies based on application, funding, and repayment patterns
 
+
 ## 🔗 Project Links
 
-🔹 **Live Dashboard**: [Tableau Public](https://public.tableau.com/app/profile/your-link)
+🔹 **Live Dashboard**: [Tableau Public](https://public.tableau.com/views/BankLoanReport_17516140932180/SUMMARY?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 ## 🤝 Connect with Me
