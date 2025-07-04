@@ -1,11 +1,14 @@
-# 🏦 Bank Loan Report Dashboard (Tableau)
+🏦 Bank Loan Report Dashboard (SQL Server + Tableau)
 
 ## 📌 Overview
 
-This interactive Tableau dashboard offers a comprehensive view of bank loan data to evaluate loan performance, borrower risk, and financial metrics. Designed for analysts and decision-makers, it provides high-level KPIs and deep insights into loan status, applicant demographics, funding trends, and repayment patterns.
+📌 Overview
+This project presents an interactive Bank Loan Analysis Dashboard built using Microsoft SQL Server for data processing and Tableau for visualization. It offers a clear and actionable view of loan performance, borrower segmentation, and financial KPIs. The dashboard is designed to help financial institutions assess risk, monitor trends, and make data-driven decisions.
+The report is split into two main sections:
 
-The primary objective of this project is to monitor total loan applications, distinguish between good and bad loans, and analyze repayment behavior based on various factors such as employment length, loan purpose, and term duration. The dashboard includes slicers and filters to enable dynamic, user-driven analysis.
+Summary View: High-level KPIs and loan quality insights
 
+Overview Page: Trend, geographic, and demographic analysis
 
 
 ## 🚀 Key Metrics
@@ -18,6 +21,15 @@ The primary objective of this project is to monitor total loan applications, dis
 * **Good Loans Issued:** 86.2%
 * **Bad Loans Issued:** 13.8%
 
+🧾 Data Processing
+All required metrics and breakdowns were calculated using Microsoft SQL Server. The SQL queries were designed to handle the following:
+
+✅ **Monthly and Total KPIs**: Including total loan applications, funded amount, and amount received
+📊 **Average Calculations**: For interest rate and debt-to-income (DTI) ratio
+🔍 **Loan Classification**: Segregation of good loans (Fully Paid / Current) and bad loans (Charged Off)
+📋 **Loan Status Groupings**: Aggregated by repayment status (e.g., Fully Paid, Current, Charged Off)
+🧩 **Segment Analysis**: Based on geography (state), term duration, employment length, loan purpose, and home ownership
+These processed results were connected directly to Tableau to build interactive, filter-enabled dashboards for end-user analysis.
 
 
 ## 📊 Visualizations & Insights
@@ -69,10 +81,11 @@ The primary objective of this project is to monitor total loan applications, dis
 ✔ Renters account for slightly more applications than homeowners
 
 
-## 🛠️ Technologies & Tools Used
+🛠️ Technologies Used
+-**Microsoft SQL Server** – For writing queries to aggregate, filter, and clean the data
+-**Tableau** – For building the interactive and user-friendly dashboards
+-**MS Excel**– For initial dataset formatting
 
-* **Tableau** – For data visualization and interactive dashboards
-* **Excel / CSV** – Used for data cleaning and preparation
 
 
 ## 📈 Potential Use Cases
